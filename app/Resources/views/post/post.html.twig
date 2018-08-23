@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="container">
+        {% if found == true %}
+            <h1>{{ post.title }}</h1>
+            <p>{{post.long_text}} </p>
+        {% else %} 
+            {% trans %} 
+                Post item not found 
+            {% endtrans %} 
+        {% endif %}
+
+    </div>
+    
+
+
+{% endblock %}
+
