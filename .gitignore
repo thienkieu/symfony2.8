@@ -16,5 +16,3 @@ UPGRADE-2.3.md
 UPGRADE-2.8.md
 UPGRADE.md
 composer.lock
-/src
-/app/Resource
